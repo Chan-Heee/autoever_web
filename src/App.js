@@ -8,7 +8,7 @@ const App = () => {
 
   
   useEffect(() => {
-    axios.get('http://autoever-test-loadBalancer-1466051733.ap-northeast-2.elb.amazonaws.com/users')
+    axios.get('http://autoever-test-loadBalancer-906777232.ap-northeast-2.elb.amazonaws.com/users')
       .then((response) => {
            console.log(response.data);
         setData(response.data);
